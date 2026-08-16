@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Java Collections Framework</title>
+
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    margin:20px;
+    color:#222;
+}
+
+h1{
+    text-align:center;
+    color:#1f4e79;
+}
+
+h2{
+    color:#0b5394;
+    margin-top:30px;
+    border-bottom:2px solid #0b5394;
+    padding-bottom:5px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+th{
+    background:#0b5394;
+    color:white;
+    padding:10px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+    vertical-align:top;
+}
+
+tr:nth-child(even){
+    background:#fafafa;
+}
+
+.card{
+    background:white;
+    border-radius:8px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.tree{
+    font-family:Consolas, monospace;
+    background:#272822;
+    color:#f8f8f2;
+    padding:20px;
+    border-radius:8px;
+    overflow:auto;
+}
+
+code{
+    background:#eee;
+    padding:2px 5px;
+    border-radius:4px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Java Collections Framework</h1>
+
+<div class="card">
+
+<h2>Hierarchy</h2>
+
+<div class="tree">
+Java Collections Framework
+
+├── Iterable
+│
+└── Collection
+    │
+    ├── List
+    │     ├── ArrayList
+    │     ├── LinkedList
+    │     ├── Vector
+    │     └── Stack (Legacy)
+    │
+    ├── Set
+    │     ├── HashSet
+    │     ├── LinkedHashSet
+    │     ├── TreeSet
+    │     └── EnumSet
+    │
+    └── Queue
+          ├── LinkedList
+          ├── PriorityQueue
+          ├── Deque
+          │      └── ArrayDeque
+          └── ArrayBlockingQueue
+
+Map (Not part of Collection)
+
+├── HashMap
+├── LinkedHashMap
+├── TreeMap
+├── Hashtable
+├── ConcurrentHashMap
+├── WeakHashMap
+├── IdentityHashMap
+└── EnumMap
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>List</h2>
+
+<table>
+
+<tr>
+<th>Implementation</th>
+<th>Ordering</th>
+<th>Duplicates</th>
+<th>Complexity</th>
+<th>Interview Notes</th>
+</tr>
+
+<tr>
+<td><b>ArrayList</b></td>
+<td>Insertion Order</td>
+<td>Yes</td>
+<td>
+get → O(1)<br>
+add → O(1) Amortized<br>
+remove(index) → O(n)
+</td>
+<td>Default List implementation</td>
+</tr>
+
+<tr>
+<td><b>LinkedList</b></td>
+<td>Insertion Order</td>
+<td>Yes</td>
+<td>
+add/remove ends → O(1)<br>
+get → O(n)
+</td>
+<td>Also implements Queue & Deque</td>
+</tr>
+
+<tr>
+<td><b>Vector</b></td>
+<td>Insertion Order</td>
+<td>Yes</td>
+<td>Similar to ArrayList</td>
+<td>Synchronized (Legacy)</td>
+</tr>
+
+<tr>
+<td><b>Stack</b></td>
+<td>LIFO</td>
+<td>Yes</td>
+<td>O(1)</td>
+<td><b>Don't use. Use ArrayDeque.</b></td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Set</h2>
+
+<table>
+
+<tr>
+<th>Implementation</th>
+<th>Ordering</th>
+<th>Duplicates</th>
+<th>Complexity</th>
+<th>Interview Notes</th>
+</tr>
+
+<tr>
+<td><b>HashSet</b></td>
+<td>No</td>
+<td>No</td>
+<td>O(1)</td>
+<td>Fast lookup</td>
+</tr>
+
+<tr>
+<td><b>LinkedHashSet</b></td>
+<td>Insertion Order</td>
+<td>No</td>
+<td>O(1)</td>
+<td>Ordered HashSet</td>
+</tr>
+
+<tr>
+<td><b>TreeSet</b></td>
+<td>Sorted</td>
+<td>No</td>
+<td>O(log n)</td>
+<td>Red Black Tree</td>
+</tr>
+
+<tr>
+<td><b>EnumSet</b></td>
+<td>Natural Enum Order</td>
+<td>No</td>
+<td>O(1)</td>
+<td>Enums only</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Queue / Deque</h2>
+
+<table>
+
+<tr>
+<th>Implementation</th>
+<th>Use</th>
+<th>Complexity</th>
+<th>Interview Notes</th>
+</tr>
+
+<tr>
+<td><b>LinkedList</b></td>
+<td>Queue</td>
+<td>offer/poll O(1)</td>
+<td>BFS</td>
+</tr>
+
+<tr>
+<td><b>PriorityQueue</b></td>
+<td>Heap</td>
+<td>offer/poll O(log n)</td>
+<td>Min Heap by default</td>
+</tr>
+
+<tr>
+<td><b>ArrayDeque</b></td>
+<td>Stack & Queue</td>
+<td>O(1)</td>
+<td><b>Preferred over Stack</b></td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Map</h2>
+
+<table>
+
+<tr>
+<th>Implementation</th>
+<th>Ordering</th>
+<th>Null Keys</th>
+<th>Complexity</th>
+<th>Interview Notes</th>
+</tr>
+
+<tr>
+<td><b>HashMap</b></td>
+<td>No</td>
+<td>1 Null Key</td>
+<td>O(1)</td>
+<td>Most Used</td>
+</tr>
+
+<tr>
+<td><b>LinkedHashMap</b></td>
+<td>Insertion Order</td>
+<td>Yes</td>
+<td>O(1)</td>
+<td>LRU Cache</td>
+</tr>
+
+<tr>
+<td><b>TreeMap</b></td>
+<td>Sorted</td>
+<td>No</td>
+<td>O(log n)</td>
+<td>Red Black Tree</td>
+</tr>
+
+<tr>
+<td><b>Hashtable</b></td>
+<td>No</td>
+<td>No</td>
+<td>O(1)</td>
+<td>Legacy Thread Safe</td>
+</tr>
+
+<tr>
+<td><b>ConcurrentHashMap</b></td>
+<td>No</td>
+<td>No</td>
+<td>O(1)</td>
+<td>Thread Safe</td>
+</tr>
+
+<tr>
+<td><b>WeakHashMap</b></td>
+<td>No</td>
+<td>Yes</td>
+<td>O(1)</td>
+<td>GC removes weak keys</td>
+</tr>
+
+<tr>
+<td><b>IdentityHashMap</b></td>
+<td>No</td>
+<td>Yes</td>
+<td>O(1)</td>
+<td>Uses == instead of equals()</td>
+</tr>
+
+<tr>
+<td><b>EnumMap</b></td>
+<td>Enum Order</td>
+<td>No</td>
+<td>O(1)</td>
+<td>Enums only</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Arrays Utility Class</h2>
+
+<pre>
+Arrays.sort()
+Arrays.fill()
+Arrays.binarySearch()
+Arrays.copyOf()
+Arrays.equals()
+Arrays.toString()
+</pre>
+
+</div>
+
+<div class="card">
+
+<h2>Collections Utility Class</h2>
+
+<pre>
+Collections.sort()
+Collections.reverse()
+Collections.shuffle()
+Collections.max()
+Collections.min()
+Collections.frequency()
+Collections.reverseOrder()
+Collections.binarySearch()
+Collections.unmodifiableList()
+</pre>
+
+</div>
+
+<div class="card">
+
+<h2>Interview Cheat Sheet</h2>
+
+<table>
+
+<tr>
+<th>Problem</th>
+<th>Collection</th>
+</tr>
+
+<tr><td>Frequency Count</td><td>HashMap</td></tr>
+<tr><td>Visited Nodes</td><td>HashSet</td></tr>
+<tr><td>BFS</td><td>Queue / LinkedList</td></tr>
+<tr><td>DFS / Stack</td><td>ArrayDeque</td></tr>
+<tr><td>Top K</td><td>PriorityQueue</td></tr>
+<tr><td>Sorted Keys</td><td>TreeMap</td></tr>
+<tr><td>Sorted Unique Values</td><td>TreeSet</td></tr>
+<tr><td>LRU Cache</td><td>LinkedHashMap</td></tr>
+<tr><td>General List</td><td>ArrayList</td></tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Must Remember</h2>
+
+<ul>
+<li>HashMap → Average O(1)</li>
+<li>TreeMap → O(log n)</li>
+<li>HashSet → O(1)</li>
+<li>TreeSet → O(log n)</li>
+<li>PriorityQueue → Min Heap by default</li>
+<li>ArrayDeque is preferred over Stack</li>
+<li>LinkedList implements List, Queue and Deque</li>
+<li>Map is NOT part of Collection interface</li>
+<li>TreeMap & TreeSet are implemented using Red-Black Trees</li>
+<li>HashMap allows one null key; Hashtable does not allow null keys or values</li>
+
+</ul>
+
+</div>
+
+</body>
+</html>
