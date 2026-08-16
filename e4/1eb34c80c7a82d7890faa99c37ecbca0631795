@@ -1,0 +1,93 @@
+CSES/.clang-tidy
+  s_94489d44d5471b::t_b0bdd0c57375f8 1-2
+SungJinwoo/01_parking_lot/src/enums.py
+  s_1bbcffc1ef911f::t_8da16f8c9c0589 13,27
+  s_1bbcffc1ef911f::t_321d28353d60e5 16-18,21-24,28
+  s_1bbcffc1ef911f::t_7c3a2c1a0375c7 10-12
+SungJinwoo/01_parking_lot/src/services/__init__.py
+  s_1bbcffc1ef911f::t_adc84f6e4d1fd5 1,3,5
+  s_1bbcffc1ef911f::t_5b39d9a917fd10 2,4,6-11
+CSES/.vscode/tasks.json
+  s_94489d44d5471b::t_8dbb3c9a009bb2 10
+  s_73536da0282ca2::t_c56cbebd5ab983 1-9,11-27
+SungJinwoo/01_parking_lot/src/services/parking_lot_service.py
+  s_1bbcffc1ef911f::t_a85c525b7674e3 1-45
+CSES/bits/stdc++.h
+  s_73536da0282ca2::t_2fc4356e6ed7a4 1-4
+SungJinwoo/01_parking_lot/src/services/fare_service.py
+  s_1bbcffc1ef911f::t_925eb16d5af2f7 7-9
+  s_1bbcffc1ef911f::t_c9c369d5f2ec5f 1-4,14-21
+  s_1bbcffc1ef911f::t_908f3fb4c9ef41 5-6,10-13
+SungJinwoo/01_parking_lot/src/implementations/__init__.py
+  s_1bbcffc1ef911f::t_61e94d3dfcacae 2-3,12-13
+  s_1bbcffc1ef911f::t_9a3475c4a12485 1,4-11,14-17
+SungJinwoo/01_parking_lot/src/implementations/vehicles.py
+  s_1bbcffc1ef911f::t_e1436ffe3855b0 1-44
+SungJinwoo/01_parking_lot/src/services/payment_service.py
+  s_1bbcffc1ef911f::t_c337bdff143a3f 1-20
+SungJinwoo/01_parking_lot/src/services/parking_service.py
+  s_1bbcffc1ef911f::t_b9fee9b5602923 1-4,6-19,22-26,28-29,48-53,55-67,69-74,78-80
+  s_1bbcffc1ef911f::t_9b0712314a49b9 27,30-47,54,68,75-77
+  s_1bbcffc1ef911f::t_f2f405ee5ccda9 5
+  s_1bbcffc1ef911f::t_8048b9618bae63 20-21
+SungJinwoo/01_parking_lot/src/implementations/spots.py
+  s_1bbcffc1ef911f::t_cfc95d5b5ebb56 4
+  s_1bbcffc1ef911f::t_b394bfb8183300 1-3,5-7,9,11-13,17-22,24-35,37-38,41-44,46-48,51-53,56-58,61-62
+  s_1bbcffc1ef911f::t_116db3691b1476 8,10,14-16,23,39-40,45,49-50,54-55,59-60,63-70
+  s_1bbcffc1ef911f::t_b27bf00f414f57 36
+SungJinwoo/01_parking_lot/src/implementations/vehicle_factory.py
+  s_1bbcffc1ef911f::t_5cc41c274d5970 1-15
+CSES/.vscode/settings.json
+  s_94489d44d5471b::t_12c71a919d5c89 5-11
+  s_73536da0282ca2::t_98859c2004c49c 1-2,4,12
+  s_73536da0282ca2::t_94b28cc7470722 3
+SungJinwoo/01_parking_lot/src/floor.py
+  s_1bbcffc1ef911f::t_6d7a8a001c10d0 1-47
+SungJinwoo/01_parking_lot/src/implementations/pricing.py
+  s_1bbcffc1ef911f::t_34a48cb1519bcd 1-4,6-20,22-23,25-30,36,41-42,44-49
+  s_1bbcffc1ef911f::t_c7af4432b48d46 5,21,24,31-35,37-40,43,50-59
+SungJinwoo/01_parking_lot/src/domain.py
+  s_1bbcffc1ef911f::t_48669644c4bdba 6,27-30,58,64-68,81-95
+  s_1bbcffc1ef911f::t_99ba523e4b53c2 1,3-5,7-15,20-26,31-44,48-49,51,69-78,80
+  s_1bbcffc1ef911f::t_95a0b2de6874f9 2,16-19,45-47,50,52-57,59-63,79
+SungJinwoo/01_parking_lot/src/main.py
+  s_1bbcffc1ef911f::t_27d0121949df0b 3-4,8,11,15-28,32-34,36-39,41,43-46,50-51,55-57,60,62-63,65-70,72-73
+  s_1bbcffc1ef911f::t_e9fa511f21a152 1-2,5-7,9-10,12-14,29-31,35,40,42,47-49,52-54,58-59,61,64,71,74-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "e41eb34c80c7a82d7890faa99c37ecbca0631795",
+  "prompts": {},
+  "humans": {
+    "h_7225d40a6d1eb9": {
+      "author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    }
+  },
+  "sessions": {
+    "s_1bbcffc1ef911f": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "94aa9530-6f2f-40aa-b2f3-d6eaefce58f9",
+        "model": "default"
+      },
+      "human_author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    },
+    "s_73536da0282ca2": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "55af1685-cdd9-4e53-951e-1c4fe4176d39",
+        "model": "gpt-5.3-codex"
+      },
+      "human_author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    },
+    "s_94489d44d5471b": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "e002e58e-f20d-485b-a5bf-b7ee6f76ec82",
+        "model": "claude-sonnet-4.6"
+      },
+      "human_author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    }
+  }
+}
