@@ -1,0 +1,97 @@
+.gitignore
+  h_7225d40a6d1eb9 221-222
+  h_7225d40a6d1eb9 220
+CSES/2_Dynamic_Programming/034_Dice_Combinations.cpp
+  h_7225d40a6d1eb9 6,8-9,11-12,15-17,29-31,39-40,55,57-58,60-64
+"Python Programming Notebooks/Advanced Class Concepts.ipynb"
+  h_7225d40a6d1eb9 1-561
+"Python Programming Notebooks/Assessment 5.ipynb"
+  h_7225d40a6d1eb9 1-460
+"Python Programming Notebooks/Class Work Example - Apartment Construction (1).ipynb"
+  h_7225d40a6d1eb9 1-221
+"Python Programming Notebooks/Class Work Example - Apartment Construction.ipynb"
+  h_7225d40a6d1eb9 1-220
+"Python Programming Notebooks/Classes and Objects (1).ipynb"
+  h_7225d40a6d1eb9 1-1174
+"Python Programming Notebooks/Classes and Objects.ipynb"
+  h_7225d40a6d1eb9 1-1466
+"Python Programming Notebooks/Decorators.ipynb"
+  h_7225d40a6d1eb9 1-244
+"Python Programming Notebooks/FTP Client Programming with Exception Handling.ipynb"
+  h_7225d40a6d1eb9 1-154
+"Python Programming Notebooks/FTP Client Programming.ipynb"
+  h_7225d40a6d1eb9 1-260
+"Python Programming Notebooks/Formatting Numbers, Strings and Currencies.ipynb"
+  h_7225d40a6d1eb9 1-1263
+"Python Programming Notebooks/Iterables and Built-in Functions.ipynb"
+  h_7225d40a6d1eb9 1-1594
+"Python Programming Notebooks/NNTP Client Programming with Exception Handling.ipynb"
+  h_7225d40a6d1eb9 1-119
+"Python Programming Notebooks/NNTP Client Programming.ipynb"
+  h_7225d40a6d1eb9 1-245
+"Python Programming Notebooks/Practice Generator Functions Generator Expressions Factory Functions.ipynb"
+  h_7225d40a6d1eb9 1-906
+"Python Programming Notebooks/Practice Programs.ipynb"
+  h_7225d40a6d1eb9 1-157
+"Python Programming Notebooks/Practice Recursion and Algorithms (1).ipynb"
+  h_7225d40a6d1eb9 1-453
+"Python Programming Notebooks/Practice Recursion and Algorithms.ipynb"
+  h_7225d40a6d1eb9 1-453
+"Python Programming Notebooks/Practice With Comprehensions.ipynb"
+  h_7225d40a6d1eb9 1-523
+"Python Programming Notebooks/Practice With Dictionaries and Sets.ipynb"
+  h_7225d40a6d1eb9 1-657
+"Python Programming Notebooks/Practice Working with Tuples.ipynb"
+  h_7225d40a6d1eb9 1-254
+"Python Programming Notebooks/Practice with Date and Time  (1).ipynb"
+  h_7225d40a6d1eb9 1-695
+"Python Programming Notebooks/Practice with Date and Time .ipynb"
+  h_7225d40a6d1eb9 1-418
+"Python Programming Notebooks/Practice with Exception Handling.ipynb"
+  h_7225d40a6d1eb9 1-489
+"Python Programming Notebooks/Practice with Files (1).ipynb"
+  h_7225d40a6d1eb9 1-566
+"Python Programming Notebooks/Practice with Files.ipynb"
+  h_7225d40a6d1eb9 1-800
+"Python Programming Notebooks/Practice with Lambda Functions.ipynb"
+  h_7225d40a6d1eb9 1-703
+"Python Programming Notebooks/PracticeWorkingWithNumbers.ipynb"
+  h_7225d40a6d1eb9 1-258
+"Python Programming Notebooks/PracticeWorkingWithStrings.ipynb"
+  h_7225d40a6d1eb9 1-452
+"Python Programming Notebooks/PracticeWorkingwithLists.ipynb"
+  h_7225d40a6d1eb9 1-679
+"Python Programming Notebooks/Python Assesment 5.ipynb"
+  h_7225d40a6d1eb9 1-293
+"Python Programming Notebooks/Python web.ipynb"
+  h_7225d40a6d1eb9 1-170
+"Python Programming Notebooks/Receiving E-Mail using POP3.ipynb"
+  h_7225d40a6d1eb9 1-251
+"Python Programming Notebooks/Receiving Mail using IMAP4.ipynb"
+  h_7225d40a6d1eb9 1-100
+"Python Programming Notebooks/Sending Mail using SMTP.ipynb"
+  h_7225d40a6d1eb9 1-151
+"Python Programming Notebooks/Untitled.ipynb"
+  h_7225d40a6d1eb9 1-61
+"Python Programming Notebooks/Untitled1.ipynb"
+  h_7225d40a6d1eb9 1-98
+"Python Programming Notebooks/Working with Extended Sequence Assignments Packing and Unpacking.ipynb"
+  h_7225d40a6d1eb9 1-266
+"Python Programming Notebooks/Working with Function Argument Matching Modes.ipynb"
+  h_7225d40a6d1eb9 1-314
+"Python Programming Notebooks/django doc.txt"
+  h_7225d40a6d1eb9 1-37
+"Python Programming Notebooks/django important points.txt"
+  h_7225d40a6d1eb9 1-154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "40fa9648850cbae5b73a0ecae87de86acefed36d",
+  "prompts": {},
+  "humans": {
+    "h_7225d40a6d1eb9": {
+      "author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    }
+  }
+}
