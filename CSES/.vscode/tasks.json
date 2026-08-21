@@ -7,7 +7,7 @@
       "command": "zsh",
       "args": [
         "-lc",
-        "CXX=\"/opt/homebrew/opt/llvm/bin/clang++\"; if [[ ! -x \"$CXX\" ]]; then CXX=\"g++\"; fi; \"$CXX\" -O2 -std=c++20 -Wall -Wextra -Wshadow -I\"${workspaceFolder}\" \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\" < \"${workspaceFolder}/../input.in\" > \"${workspaceFolder}/../output.out\""
+        "CXX=\"/opt/homebrew/opt/llvm/bin/clang++\"; if [[ ! -x \"$CXX\" ]]; then CXX=\"g++\"; fi; \"$CXX\" -O2 -std=c++20 -Wall -Wextra -Wshadow -I\"${workspaceFolder}\" \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}\" && \"${fileDirname}/${fileBasenameNoExtension}\" < \"${workspaceFolder}/input.in\" > \"${workspaceFolder}/output.out\""
       ],
       "group": {
         "kind": "build",
