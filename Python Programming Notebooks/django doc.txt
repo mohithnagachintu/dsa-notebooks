@@ -1,0 +1,37 @@
+workon jango
+
+django-admin startproject [projectName]
+
+cd [projectName]
+
+python manage.py startapp [appName]
+-> register app in settings.py INSTALLED APPS	
+
+
+-> create a directory for templates
+-> add the directory path in settings.py  i.e in 'DIRS' fleid add BASE_DIR / "templates"
+-> create urls.py in [appName] folder
+-> include [appName].urls in main urls.py i.e
+		in urls.py
+		 urlpatterns [......,  ('[any_expression]',include([appName].urls)),..]
+-> create models 
+-> in admin.py register your models and customize the display options
+-> makemigrations:
+	-> python manage.py makemigrations
+	-> python manage.py migrate
+
+-> create a superuser using following command : python manage.py createsuperuser
+
+-> create views, forms etc .. 
+
+for sending mail
+
+>>> from django.core.mail import send_mail
+>>> send_mail('Django Test', ' This is Django Test Body', 'mohithnaga@gmail.com')
+Traceback (most recent call last):
+  File "<console>", line 1, in <module>
+TypeError: send_mail() missing 1 required positional argument: 'recipient_list'
+>>> send_mail('Django Test', ' This is Django Test Body', 'mohithnaga@gmail.com',[
+... '122003032@sastra.ac.in'], fail_silently = False)
+
+
