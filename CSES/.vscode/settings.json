@@ -1,8 +1,8 @@
 {
   "github.copilot.enable": {
-    "*": true
+    "*": false
   },
-  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": false,
   "C_Cpp.errorSquiggles": "enabled",
   "C_Cpp.codeAnalysis.clangTidy.enabled": true,
   "C_Cpp.codeAnalysis.runAutomatically": true,
