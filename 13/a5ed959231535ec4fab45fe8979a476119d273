@@ -1,0 +1,55 @@
+CSES/Range_Queries/003_Dynamic_Range_Sum_Queries.cpp
+  s_52b45fdf0ffab4::t_efa1d8d0aef8b3 10,24,34,55,57,61,65-66,74
+  s_52b45fdf0ffab4::t_e9f0f96b03c6cc 11,14,16-17,20,22,29,40,42,62,73,78
+  h_7225d40a6d1eb9 1-9,12-13,15,18-19,21,23,25-28,30-33,35-39,41,43-54,56,58-60,63-64,67-72,75-77,79-82
+CSES/.vscode/tasks.json
+  s_52b45fdf0ffab4::t_3f3994aa226816 10
+  s_dfa1ecdd900cf2::t_ce0bb331e412c3 29
+  s_dfa1ecdd900cf2::t_5f82045311b5fc 12-14,16-28,30-33,35-40,63
+  s_dfa1ecdd900cf2::t_f8a2cc0e988c56 41-50
+  s_dfa1ecdd900cf2::t_65228b6da9d492 34
+CSES/input.in
+  h_7225d40a6d1eb9 1-5
+CSES/Range_Queries/bits/stdc++.h
+  h_7225d40a6d1eb9 1-56
+CSES/main.py
+  s_52b45fdf0ffab4::t_f54c3a23136ced 1-3,6,8,21,25-26,34-37
+  h_7225d40a6d1eb9 4-5,7,9-20,22-24,27-33,38-48
+CSES/Range_Queries/006_Range_Update_Queries.cpp
+  h_7225d40a6d1eb9 1-85
+CSES/.vscode/settings.json
+  h_7225d40a6d1eb9 3,5
+CSES/output.out
+  h_7225d40a6d1eb9 1-2
+CSES/test_input.txt
+  h_7225d40a6d1eb9 1-200002
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "13a5ed959231535ec4fab45fe8979a476119d273",
+  "prompts": {},
+  "humans": {
+    "h_7225d40a6d1eb9": {
+      "author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    }
+  },
+  "sessions": {
+    "s_52b45fdf0ffab4": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "332b17c6-859f-4394-8f7d-70348a4a8e84",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    },
+    "s_dfa1ecdd900cf2": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "df21b0b5-518f-496f-86d6-9fe6f17e41b0",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Appasamudram Naga Mohith (amohith) <amohith@cisco.com>"
+    }
+  }
+}
